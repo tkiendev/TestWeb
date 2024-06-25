@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head> <!--đầu chương trình -->
+    <!--khai báo cấu hình web -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> test </title> <!-- thẻ tiêu đề -->
+</head>
+
+<body> <!--thân chương trình-->
+    <h1>heading tag</h1> <!--thẻ tiêu đề chạy từ h1 đến h6-->
+
+    <p style=" font-size:  20px; font-weight: 600"> hello </p>
+    <!--font-size: cỡ chữ-->
+    <!--font-weigth: tô đậm-->
+    <p style="color: red; font-size: 50px;"> hello word</p>
+
+    <div sytle="border : 1px solid red"> div 1 </div>
+    <div> div 2 </div> <!--hiểu thị nội dung dạng khối-->
+    <div> div 3 </div>
+    <div> div 4 </div>
+    <spam sytle="border : 1px solid red"> tôi là spam </spam> <!--hiểu thị vừa đủ nội dung-->
+    <spam sytle="border : 1px solid red"> tôi là spam 2 </spam> <!--hiểu thị vừa đủ nội dung-->
+    <a target="_blank"
+        href=" https://www.bing.com/search?pglt=163&q=gg+dichj&cvid=cd55c8d79c964ab9a9528033dbfda98c&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg1NjEzajBqMagCALACAA&FORM=ANNTA1&PC=ASTS ">
+        <!--href: thuộc tính gắn link-->
+        <!--target: hỗ trợ chuyển đường link-->
+        tôi là tag a </a> <!--thẻ gắn link-->
+    <img height="400" widih="300" src="https://www.mdig.com.br/imagens/semana/msem11/msem11_01.jpg" />
+    <!--thẻ gán anh-->
+    <form> </form> <!--thẻ tính năng-->
+    <table> </table> <!--thẻ bảng-->
+    <ol>
+        <li> hello </li>
+        <li> hello </li>
+        <li> hello </li>
+        <li> hello </li>
+    </ol> <!--thẻ danh sách có thứ tự-->
+    <ul>
+        <li> hello </li>
+        <li> hello </li>
+        <li> hello </li>
+        <li> hello </li>
+    </ul> <!--thẻ danh sách không thứ tự-->
+
+</body>
+
+</html>
+=================================================================================================================================
+<html lang="en">
+
+<head> <!--đầu chương trình -->
+    <!--khai báo cấu hình web -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> test </title> <!-- thẻ tiêu đề -->
+</head>
+<style>
+    .first-calss {
+        color: greenyellow;
+    }
+
+    /* #firstId {
+        color: greenyellow;
+    } */
+
+    #secondId {
+        color: red;
+    }
+
+    #fontId {
+        font-size: 40px;
+    }
+
+    .my-img {
+        height: 400px;
+        width: 200px;
+    }
+</style>
+
+<body> <!--thân chương trình-->
+    <h1 id="firstId" class="first-calss">heading tag</h1> <!--thẻ tiêu đề chạy từ h1 đến h6-->
+    <h1 id="secondId">heading tag 2</h1>
+    <h1 id="fontId" class="first-calss">heading tag 3</h1>
+    <div sytle="border : 1px solid red"> div 1 </div>
+    <div> div 2 </div> <!--hiểu thị nội dung dạng khối-->
+    <div> div 3 </div>
+    <div> div 4 </div>
+    <spam sytle="border : 1px solid red"> tôi là spam </spam> <!--hiểu thị vừa đủ nội dung-->
+    <spam sytle="border : 1px solid red"> tôi là spam 2 </spam> <!--hiểu thị vừa đủ nội dung-->
+    <a target="_blank"
+        href=" https://www.bing.com/search?pglt=163&q=gg+dichj&cvid=cd55c8d79c964ab9a9528033dbfda98c&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg1NjEzajBqMagCALACAA&FORM=ANNTA1&PC=ASTS ">
+        <!--href: thuộc tính gắn link-->
+        <!--target: hỗ trợ chuyển đường link-->
+        tôi là tag a </a> <!--thẻ gắn link-->
+    <img class="my-img" src="https://www.mdig.com.br/imagens/semana/msem11/msem11_01.jpg" />
+    <!--thẻ gán anh-->
+
+
+</body>
+
+</html>
